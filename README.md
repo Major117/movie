@@ -6,7 +6,7 @@
 
 ## le diagramme du projet :
 
-![alt text](https://zupimages.net/up/19/51/tvdv.jpg)
+![alt text](https://zupimages.net/up/19/51/ebw4.jpg)
 
 ## Les differents EndPoints :
 
