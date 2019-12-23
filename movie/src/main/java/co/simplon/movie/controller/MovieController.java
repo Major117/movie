@@ -79,7 +79,7 @@ public class MovieController {
 	
 	
 	/**
-	 * permet de rechercher un film grace a son id et intercept les erreurs.
+	 * Permet de rechercher un film grâce a son id et intercepte les erreurs.
 	 * @param id
 	 * @return
 	 */
