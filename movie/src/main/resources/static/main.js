@@ -6,7 +6,7 @@ var finalUrlId = "";
 //-----------------------------------------------------------------------------------------------------------------
 
 /**
- * appelle le endpoint avec la liste de film et prend en charge la function chargerMovieList() et displayList()
+ * Appelle le endpoint avec la liste de film et prend en charge la fonction chargerMovieList() et displayList()
  */
     $.ajax({
         url: "http://localhost:8080/movie/all"
@@ -19,7 +19,7 @@ var finalUrlId = "";
 
 
     /**
-     * appelle le endpoint avec un String et prend en charge la function writeAbout()
+     * Appelle le endpoint avec un String et prend en charge la fonction writeAbout()
      */
   $.ajax({
       url: "http://localhost:8080/movie/about"
@@ -31,7 +31,7 @@ var finalUrlId = "";
 
  
 /**
- * enregiste l'id écris par l'utilisateur une fois qu'il taper sur la touche "Enter" et charge la function displayMovieById()
+ * Enregistre l' id écris par l'utilisateur une fois qu'il taper sur la touche "Enter" et charge la fonction displayMovieById().
  */
  $('#insert-id').keyup('input', function (e) {
     
@@ -46,7 +46,7 @@ var finalUrlId = "";
 
 
   /**
-   * créer un Objet film et le renvoie.
+   * Créer un Objet film et le renvoie.
    */
   $('#submit').click(function (event) {
   
@@ -64,7 +64,7 @@ var finalUrlId = "";
 
 
 /**
- * affiche les titres des films dans un button.
+ * Affiche les titres des films dans un button.
  */
 function chargerMovieList() {
   liste.forEach(function (movie) {
@@ -83,7 +83,7 @@ function chargerMovieList() {
 
 
 /**
- * affiche un film dans un tableau 
+ * Affiche un film dans un tableau.
  * @param {*} movie 
  */
 function chargerMovie(movie) {
@@ -98,7 +98,7 @@ function chargerMovie(movie) {
 
 
 /**
- * affiche la description de mon projet dans un paragraphe 
+ * Affiche la description de mon projet dans un paragraphe.
  */
   function writeAbout() {
     
@@ -110,8 +110,8 @@ function chargerMovie(movie) {
   }
   
 
-/**  appelle le endpoint recherche par l'id.  et
- * affiche dans un tableaux la liste des films avec ses caractéristiques, trouvé grâce a l'id et renvoie une erreur si l'id n'existe pas.
+/**  Appelle le endpoint recherche par l' id.  &
+ * Affiche dans un tableau la liste des films avec ses caractéristiques, trouvé grâce à l 'id et renvoie une erreur si l' id n'existe pas.
  */
 function displayMovieById(){
 
@@ -146,7 +146,7 @@ function displayMovieById(){
 
 
   /**
-   * affiche toutes la liste des films avec ses caractéristique dans un tableau.
+   * Affiche toutes la liste des films avec ses caractéristiques dans un tableau.
    */
   function displayList() {
     liste.forEach(function (movie) {
@@ -175,7 +175,7 @@ function displayMovieById(){
   }
 
  /**
-  * renvoie une page html quand une erreur et interceptée.
+  * Renvoie une page html quand une erreur et interceptée.
   */ 
 function error404 () {
   document.location.href = "error404.html";
