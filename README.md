@@ -26,13 +26,13 @@ Ce EndPoint renvoie ma liste de films en format Json.
 
 ![alt text](https://zupimages.net/up/19/51/64l3.jpg)
 
-Ce EndPoint attend une valeur, un identifiant, qui renvoie un film dans toutes la Liste en format Json. 
+Ce EndPoint attend une valeur, un identifiant, qui renvoie un film dans toute la Liste en format Json.
 
 ### /movie/add? :
 
 ![alt text](https://zupimages.net/up/19/51/5eou.jpg)
 
-Ce EndPoint attend les 3 valeur qui va lui permettre de créer un film, un titre, un réalisateur et l'année de sortie.
+Ce EndPoint attend les 3 valeurs qui va lui permettre de créer un film, un titre, un réalisateur et l'année de sortie.
 Ensuite il renvoie le film en format Json.
 
 ## Screen du Menu Principal :
